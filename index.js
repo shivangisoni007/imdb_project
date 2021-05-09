@@ -153,6 +153,6 @@ const URL = [
     
 }
 
-fs.writeFileSync('./data.json', JSON.stringify(moviesData), 'utf-8');
+fs.writeFileSync('./Moviedata1.json', JSON.stringify(moviesData), 'utf-8');
 
 })()
